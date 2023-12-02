@@ -3,6 +3,7 @@ module github.com/smilingpoplar/rss-translate
 go 1.21.4
 
 require (
+	github.com/cenkalti/backoff/v4 v4.2.1
 	github.com/gorilla/feeds v1.1.2
 	github.com/mmcdole/gofeed v1.2.1
 )
