@@ -1,16 +1,31 @@
 package translate
 
 import (
+	"bytes"
 	"fmt"
 	"os"
 
 	"github.com/gorilla/feeds"
 	"github.com/mmcdole/gofeed"
+	"github.com/smilingpoplar/rss-translate/util"
 )
 
 func Main() int {
-	fp := gofeed.NewParser()
-	from, err := fp.ParseURL("https://www.economist.com/science-and-technology/rss.xml")
+	data, err := util.GetURL("https://www.economist.com/science-and-technology/rss.xml")
+	if err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return 1
+	}
+
+	hash, err := util.MD5(data)
+	if err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return 1
+	}
+	fmt.Println(hash)
+
+	parser := gofeed.NewParser()
+	from, err := parser.Parse(bytes.NewReader(data))
 	if err != nil {
 		fmt.Fprintln(os.Stderr, "error parsing feed:", err)
 		return 1
