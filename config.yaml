@@ -1,0 +1,7 @@
+output:
+  dir: rss/
+
+feeds:
+  economist - s&t:
+    url: https://www.economist.com/science-and-technology/rss.xml
+    max: 10
