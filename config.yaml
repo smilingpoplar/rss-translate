@@ -1,8 +1,9 @@
 to-lang: zh-CN
 output:
   dir: rss/
+  url: https://cdn.jsdelivr.net/gh/smilingpoplar/rss-translate@rss/
 
 feeds:
-  economist - s&t:
+  economist - science-and-technology:
     url: https://www.economist.com/science-and-technology/rss.xml
     max: 10

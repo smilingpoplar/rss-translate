@@ -15,6 +15,7 @@ type Config struct {
 
 type OutputConfig struct {
 	Dir string `yaml:"dir"`
+	URL string `yaml:"url"`
 }
 
 type FeedConfig struct {

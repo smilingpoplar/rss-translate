@@ -3,8 +3,11 @@ package translate
 import (
 	"bytes"
 	"fmt"
+	"net/url"
 	"os"
 	"path"
+	"path/filepath"
+	"sort"
 
 	"github.com/gorilla/feeds"
 	"github.com/mmcdole/gofeed"
@@ -18,7 +21,8 @@ func Main() int {
 		fmt.Fprintln(os.Stderr, err)
 		return 1
 	}
-	hashes, err := util.KVStore("hash.json")
+	fp := filepath.Join(config.Output.Dir, "hash.json")
+	hashes, err := util.KVStore(fp)
 	if err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		return 1
@@ -29,6 +33,10 @@ func Main() int {
 		return 1
 	}
 	if err = hashes.Save(); err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return 1
+	}
+	if err = writeDesc(config); err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		return 1
 	}
@@ -138,4 +146,36 @@ func writeFeed(feed *feeds.Feed, rssDir string, feedName string) error {
 		return fmt.Errorf("error writing feed %s: %w", feedName, err)
 	}
 	return nil
+}
+
+func writeDesc(config *util.Config) error {
+	names := make([]string, 0, len(config.Feeds))
+	for name := range config.Feeds {
+		names = append(names, name)
+	}
+	sort.Strings(names)
+
+	fp := filepath.Join(config.Output.Dir, "rss.md")
+	f, err := os.Create(fp)
+	if err != nil {
+		return fmt.Errorf("error creating file %s: %w", fp, err)
+	}
+	defer f.Close()
+
+	fmt.Fprintln(f, "# RSS List")
+	for _, name := range names {
+		p := path.Join(config.Output.Dir, name+".xml")
+		fmt.Fprintf(f, "- [%s](%s)\n", name, getPath(p, config.Output.URL))
+	}
+	fmt.Fprintln(f)
+	return nil
+}
+
+func getPath(p string, prefix string) string {
+	if u, err := url.Parse(prefix); err != nil {
+		return p
+	} else {
+		u.Path = path.Join(u.Path, p)
+		return u.String()
+	}
 }
