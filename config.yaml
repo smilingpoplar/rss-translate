@@ -8,3 +8,6 @@ feeds:
   economist - science-and-technology:
     url: https://www.economist.com/science-and-technology/rss.xml
     max: 10
+  nature:
+    url: https://www.nature.com/nature.rss
+    max: 30
