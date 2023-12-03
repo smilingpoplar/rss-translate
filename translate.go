@@ -17,15 +17,24 @@ func Main() int {
 		fmt.Fprintln(os.Stderr, err)
 		return 1
 	}
-	if err = process(config); err != nil {
+	hashes, err := util.KVStore("hash.json")
+	if err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		return 1
 	}
 
+	if err = process(config, hashes); err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return 1
+	}
+	if err = hashes.Save(); err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return 1
+	}
 	return 0
 }
 
-func process(config *util.Config) error {
+func process(config *util.Config, hashes *util.Store) error {
 	parser := gofeed.NewParser()
 	for feedName, feedConfig := range config.Feeds {
 		data, err := util.GetURL(feedConfig.URL)
@@ -36,7 +45,11 @@ func process(config *util.Config) error {
 		if err != nil {
 			return err
 		}
-		fmt.Println(hash)
+		if oldHash, ok := hashes.Get(feedName); ok && hash == oldHash {
+			fmt.Println("no change, skip feed:", feedName)
+			continue
+		}
+		fmt.Println("processing feed:", feedName)
 
 		from, err := parser.Parse(bytes.NewReader(data))
 		if err != nil {
@@ -47,6 +60,7 @@ func process(config *util.Config) error {
 		if err := writeFeed(to, config.Output.Dir, feedName); err != nil {
 			return err
 		}
+		hashes.Set(feedName, hash)
 	}
 	return nil
 }
