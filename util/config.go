@@ -9,6 +9,7 @@ import (
 
 type Config struct {
 	Output OutputConfig          `yaml:"output"`
+	ToLang string                `yaml:"to-lang"`
 	Feeds  map[string]FeedConfig `yaml:"feeds"`
 }
 

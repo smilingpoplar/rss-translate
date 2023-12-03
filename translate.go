@@ -9,6 +9,7 @@ import (
 	"github.com/gorilla/feeds"
 	"github.com/mmcdole/gofeed"
 	"github.com/smilingpoplar/rss-translate/util"
+	"github.com/smilingpoplar/translate/translator/google"
 )
 
 func Main() int {
@@ -57,6 +58,9 @@ func process(config *util.Config, hashes *util.Store) error {
 		}
 
 		to := transformFeed(from, feedConfig.Max)
+		if to, err = translateFeed(to, config.ToLang); err != nil {
+			return err
+		}
 		if err := writeFeed(to, config.Output.Dir, feedName); err != nil {
 			return err
 		}
@@ -93,6 +97,29 @@ func transformFeed(from *gofeed.Feed, limit int) *feeds.Feed {
 		to.Items = append(to.Items, toItem)
 	}
 	return to
+}
+
+func translateFeed(feed *feeds.Feed, toLang string) (*feeds.Feed, error) {
+	trans, err := google.New()
+	if err != nil {
+		return nil, fmt.Errorf("error creating translator: %w", err)
+	}
+	texts := make([]string, 0, len(feed.Items)*3)
+	for _, item := range feed.Items {
+		texts = append(texts, item.Title, item.Description, item.Content)
+	}
+
+	texts, err = trans.Translate(texts, toLang)
+	if err != nil {
+		return nil, fmt.Errorf("error translating feed %s: %w", feed.Link.Href, err)
+	}
+
+	for i, item := range feed.Items {
+		item.Title = texts[i*3]
+		item.Description = texts[i*3+1]
+		item.Content = texts[i*3+2]
+	}
+	return feed, nil
 }
 
 func writeFeed(feed *feeds.Feed, rssDir string, feedName string) error {
