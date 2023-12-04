@@ -8,6 +8,7 @@ import (
 	"path"
 	"path/filepath"
 	"sort"
+	"sync"
 
 	"github.com/gorilla/feeds"
 	"github.com/mmcdole/gofeed"
@@ -43,39 +44,70 @@ func Main() int {
 	return 0
 }
 
-func process(config *util.Config, hashes *util.Store) error {
-	downloader := util.NewDownloader()
-	downloader.SetProxy(config.Proxy)
-	parser := gofeed.NewParser()
+type downloadResult struct {
+	FeedName string
+	Data     []byte
+	Err      error
+}
 
+func process(config *util.Config, hashes *util.Store) error {
+	const maxConcurrentDownloads = 5
+	sem := make(chan struct{}, maxConcurrentDownloads)
+	var wg sync.WaitGroup
+	resultCh := make(chan downloadResult, maxConcurrentDownloads)
+
+	// 开始下载feeds
 	for feedName, feedConfig := range config.Feeds {
-		data, err := downloader.GetURL(feedConfig.URL)
+		wg.Add(1)
+		go func(feedName string, url string) {
+			defer wg.Done()
+
+			sem <- struct{}{} // 控制并发数，获取令牌
+			result := downloadResult{FeedName: feedName}
+			d := util.NewDownloader()
+			d.SetProxy(config.Proxy)
+			result.Data, result.Err = d.GetURL(url)
+			resultCh <- result
+			<-sem // 释放令牌
+		}(feedName, feedConfig.URL)
+	}
+
+	// 等待所有下载完成
+	go func() {
+		wg.Wait()
+		close(resultCh)
+	}()
+
+	// 处理结果
+	parser := gofeed.NewParser()
+	for r := range resultCh {
+		if r.Err != nil {
+			return r.Err
+		}
+
+		hash, err := util.MD5(r.Data)
 		if err != nil {
 			return err
 		}
-		hash, err := util.MD5(data)
-		if err != nil {
-			return err
-		}
-		if oldHash, ok := hashes.Get(feedName); ok && hash == oldHash {
-			fmt.Println("no change, skip feed:", feedName)
+		if oldHash, ok := hashes.Get(r.FeedName); ok && hash == oldHash {
+			fmt.Println("no change, skip feed:", r.FeedName)
 			continue
 		}
-		fmt.Println("processing feed:", feedName)
+		fmt.Println("processing feed:", r.FeedName)
 
-		from, err := parser.Parse(bytes.NewReader(data))
+		from, err := parser.Parse(bytes.NewReader(r.Data))
 		if err != nil {
-			return fmt.Errorf("error parsing feed %s: %w", feedName, err)
+			return fmt.Errorf("error parsing feed %s: %w", r.FeedName, err)
 		}
 
-		to := transformFeed(from, feedConfig.Max)
+		to := transformFeed(from, config.Feeds[r.FeedName].Max)
 		if to, err = translateFeed(to, config.ToLang, config.Proxy); err != nil {
 			return err
 		}
-		if err := writeFeed(to, config.Output.Dir, feedName); err != nil {
+		if err := writeFeed(to, config.Output.Dir, r.FeedName); err != nil {
 			return err
 		}
-		hashes.Set(feedName, hash)
+		hashes.Set(r.FeedName, hash)
 	}
 	return nil
 }
