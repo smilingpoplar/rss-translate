@@ -44,9 +44,12 @@ func Main() int {
 }
 
 func process(config *util.Config, hashes *util.Store) error {
+	downloader := util.NewDownloader()
+	downloader.SetProxy(config.Proxy)
 	parser := gofeed.NewParser()
+
 	for feedName, feedConfig := range config.Feeds {
-		data, err := util.GetURL(feedConfig.URL)
+		data, err := downloader.GetURL(feedConfig.URL)
 		if err != nil {
 			return err
 		}
@@ -66,7 +69,7 @@ func process(config *util.Config, hashes *util.Store) error {
 		}
 
 		to := transformFeed(from, feedConfig.Max)
-		if to, err = translateFeed(to, config.ToLang); err != nil {
+		if to, err = translateFeed(to, config.ToLang, config.Proxy); err != nil {
 			return err
 		}
 		if err := writeFeed(to, config.Output.Dir, feedName); err != nil {
@@ -107,11 +110,12 @@ func transformFeed(from *gofeed.Feed, limit int) *feeds.Feed {
 	return to
 }
 
-func translateFeed(feed *feeds.Feed, toLang string) (*feeds.Feed, error) {
-	trans, err := google.New()
+func translateFeed(feed *feeds.Feed, toLang string, proxy string) (*feeds.Feed, error) {
+	trans, err := google.New(google.WithProxy(proxy))
 	if err != nil {
 		return nil, fmt.Errorf("error creating translator: %w", err)
 	}
+
 	texts := make([]string, 0, len(feed.Items)*3)
 	for _, item := range feed.Items {
 		texts = append(texts, item.Title, item.Description, item.Content)

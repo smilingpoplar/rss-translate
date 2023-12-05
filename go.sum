@@ -33,12 +33,6 @@ github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZb
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/rogpeppe/go-internal v1.9.0 h1:73kH8U+JUqXU8lRuOHeVHaa/SZPifC7BkcraZVejAe8=
 github.com/rogpeppe/go-internal v1.9.0/go.mod h1:WtVeX8xhTBvf0smdhujwtBcq4Qrzq/fJaraNFVN+nFs=
-github.com/smilingpoplar/translate v0.0.0-20231215163959-1b731ff87b2e h1:gfo6cY0HojdGcycnXvQRmxrDC4VGDVQ/Z2+0UFDo6BM=
-github.com/smilingpoplar/translate v0.0.0-20231215163959-1b731ff87b2e/go.mod h1:n/w/SJId0npTALTC0x5DRw0WTkVLnQLeR2zj2IcFxp8=
-github.com/smilingpoplar/translate v0.0.0-20240103100443-46a6d94739a1 h1:7IT5gVrDP65ifDgmVS4gZ2JIJW0PGbebXSBXnhxVC7Y=
-github.com/smilingpoplar/translate v0.0.0-20240103100443-46a6d94739a1/go.mod h1:n/w/SJId0npTALTC0x5DRw0WTkVLnQLeR2zj2IcFxp8=
-github.com/smilingpoplar/translate v0.0.0-20240103111145-f33f37ce9c57 h1:/cIe48RpxSAN+m7lvVYfTUqMcr5gRFJ2oCaUA9pzwwA=
-github.com/smilingpoplar/translate v0.0.0-20240103111145-f33f37ce9c57/go.mod h1:n/w/SJId0npTALTC0x5DRw0WTkVLnQLeR2zj2IcFxp8=
 github.com/smilingpoplar/translate v0.0.0-20240103131815-3b940b37fe3e h1:uRglyLBZH9b7f666SmcN7Q2WLx9TK+Gx2QbOkPLqGyo=
 github.com/smilingpoplar/translate v0.0.0-20240103131815-3b940b37fe3e/go.mod h1:n/w/SJId0npTALTC0x5DRw0WTkVLnQLeR2zj2IcFxp8=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=

@@ -1,4 +1,5 @@
 to-lang: zh-CN
+# proxy: http://127.0.0.1:7890 # or socks5://127.0.0.1:7890
 output:
   dir: rss/
   url: https://cdn.jsdelivr.net/gh/smilingpoplar/rss-translate@rss/
