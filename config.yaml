@@ -23,3 +23,7 @@ feeds:
   american affairs:
     url: https://americanaffairsjournal.org/feed/
     max: 20
+  reddit - LocalLLamMA:
+    url: https://www.reddit.com/r/LocalLLaMA/top.rss
+    max: 30
+
