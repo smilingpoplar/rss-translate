@@ -13,7 +13,7 @@ import (
 	"github.com/gorilla/feeds"
 	"github.com/mmcdole/gofeed"
 	"github.com/smilingpoplar/rss-translate/util"
-	"github.com/smilingpoplar/translate/translator/google"
+	"github.com/smilingpoplar/translate/translator"
 )
 
 func Main() int {
@@ -101,7 +101,7 @@ func process(config *util.Config, hashes *util.Store) error {
 		}
 
 		to := transformFeed(from, config.Feeds[r.FeedName].Max)
-		if to, err = translateFeed(to, config.ToLang, config.Proxy); err != nil {
+		if to, err = translateFeed(to, config.ToLang, config.Proxy, config.Fixes); err != nil {
 			return err
 		}
 		if err := writeFeed(to, config.Output.Dir, r.FeedName); err != nil {
@@ -142,8 +142,8 @@ func transformFeed(from *gofeed.Feed, limit int) *feeds.Feed {
 	return to
 }
 
-func translateFeed(feed *feeds.Feed, toLang string, proxy string) (*feeds.Feed, error) {
-	trans, err := google.New(google.WithProxy(proxy))
+func translateFeed(feed *feeds.Feed, toLang string, proxy string, fixes map[string]string) (*feeds.Feed, error) {
+	trans, err := translator.GetTranslator("google", proxy)
 	if err != nil {
 		return nil, fmt.Errorf("error creating translator: %w", err)
 	}
@@ -157,6 +157,7 @@ func translateFeed(feed *feeds.Feed, toLang string, proxy string) (*feeds.Feed, 
 	if err != nil {
 		return nil, fmt.Errorf("error translating feed %s: %w", feed.Link.Href, err)
 	}
+	util.ApplyTranslationFixes(texts, fixes)
 
 	for i, item := range feed.Items {
 		item.Title = texts[i*3]
