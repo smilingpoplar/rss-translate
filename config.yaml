@@ -26,6 +26,9 @@ feeds:
   reddit - LocalLLamMA:
     url: https://www.reddit.com/r/LocalLLaMA/top.rss
     max: 30
+  ft - world:
+    url: https://www.ft.com/world?format=rss
+    max: 30
 
 fixes:
   法学硕士: LLM
