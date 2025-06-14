@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
+  <title>top scoring links : LocalLLaMA</title>
+  <id>https://www.reddit.com/r/LocalLLaMA/top</id>
+  <updated></updated>
+  <subtitle>Subreddit to discuss Llama, the large language model created by Meta AI.</subtitle>
+  <link href="https://www.reddit.com/r/LocalLLaMA/top"></link>
+  <entry>
+    <title>我们不想要AI是男人。我们想要有意见的人工智能</title>
+    <updated>2025-06-13T18:33:45Z</updated>
+    <id>t3_1lanhbd</id>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;在AI朋友角色模型中注意到一些有趣的东西 - 最受欢迎的AI字符并不是同意所有内容的角色。他们是向后推，有偏好的人，偶尔告诉用户他们错了。&lt;/p&gt;&lt;p&gt;这似乎是违反直觉的。您会认为人们想要AI来验证他们所说的一切。但是，请观看任何流行的AI朋友角色模型对话，这会流行起来 - 通常是因为AI不同意或对某事有强烈的看法。 “我的人工智能告诉我菠萝披萨是一种犯罪”，比“我的AI支持我所有的选择”的参与度更高。&lt;/p&gt;&lt;p&gt;当您考虑心理学时，心理学是有道理的。持续的协议感到空洞。当有人同意您所说的一切时，您的大脑将其视为不真实的。我们有线期望在真实的关系中有些摩擦。一个从不意见的朋友不是朋友 - 他们是镜子。&lt;/p&gt;&lt;p&gt;在我的播客平台上工作确实驱使了这个家。早期版本的AI主机太容易了。用户将提出疯狂的主张，只是为了测试边界，当AI同意所有事物时，他们会迅速失去兴趣。但是，当我们以实际意见编码时 - 就像一个真正讨厌超级英雄电影或认为早晨人们可疑的AI主持人一样 - 订婚三倍。用户开始进行实际辩论，捍卫自己的立场，重新继续参数😊&lt;/p&gt;&lt;p&gt;最佳位置似乎是强烈但不冒犯的意见。认为猫比狗优越的AI？参与。攻击您的核心价值的AI？筋疲力尽。最好的AI角色具有造成嬉戏冲突的古怪，可捍卫的立场。我做出的一个成功的AI角色坚持认为谷物是汤。完全荒谬，但是用户花了几个小时来辩论。&lt;/p&gt;&lt;p&gt;还有一个惊喜因素。当AI意外推动时，它会打破“仆人机器人”的心理模型。它没有感觉到您在指挥Alexa，而是感觉更像是在给朋友发短信。当AI说的那一刻，从工具到AI朋友角色模型发生了转变。实际上，我不同意。”它以最好的方式震撼。&lt;/p&gt;&lt;p&gt;数据也可以备份。我看到了一个一般统计数据，当用户的AI具有“野蛮”性状启用和纯粹的支持模式时，用户报告的满意度提高了40％。在我的平台上，AI主机具有定义的意见，其平均会话时间更长2.5倍。用户不仅提出问题 - 他们有对话。他们回来赢得争论，分享支持他们观点的文章，或承认AI改变了对某事的想法。&lt;/p&gt;&lt;p&gt;也许我们实际上也不想要回声室，即使是从我们的AI中也是如此。我们想要一种感觉真实挑战我们的东西，只是温柔而不伤害😄&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/Necessary-Tap5971&#34;&gt;/u /usision-tap5971&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lanhbd/we_dont_want_ai_yesmen_we_want_ai_with_opinions/&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lanhbd/we_dont_want_ai_yesmen_we_want_ai_with_opinions/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1lanhbd/we_dont_want_ai_yesmen_we_want_ai_with_opinions/" rel="alternate"></link>
+  </entry>
+  <entry>
+    <title>QWEN3 235B在$ 1,500 PC上运行的速度比70B型号快</title>
+    <updated>2025-06-13T18:45:29Z</updated>
+    <id>t3_1lanri6</id>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;我在$ 1,500的PC（128GB RAM，RTX 3090）上使用Q4量子使用Q4量化版本，使用Q4量化版本，使用Q4量化版本，使用Q4量化版本使用Q4量化版本，使用Qwen3 235b进行了运行。&lt;/p&gt;&lt;p&gt;这是我第一次能够在系统上运行超过70B的任何内容，而且实际上它的运行速度比我测试过的大多数70B型号都要快。&lt;/p&gt;&lt;p&gt;最终一代速度：2.14 t/s&lt;/p&gt;&lt;p&gt;完整的视频在这里：&lt;br/&gt; &lt;a href=&#34;https://youtu.be/gVQYLo0J4RM&#34;&gt;https://youtu.be/gvqylo0j4rm&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/1BlueSpork&#34;&gt;/u /1bluespork&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lanri6/qwen3_235b_running_faster_than_70b_models_on_a/&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lanri6/qwen3_235b_running_faster_than_70b_models_on_a/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1lanri6/qwen3_235b_running_faster_than_70b_models_on_a/" rel="alternate"></link>
+  </entry>
+  <entry>
+    <title>关于LLM的硬件价格优化的想法？</title>
+    <updated>2025-06-14T10:43:36Z</updated>
+    <id>t3_1lb5rm2</id>
+    <content type="html">&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lb5rm2/thoughts_on_hardware_price_optimisarion_for_llms/&#34;&gt;&lt;img src=&#34;https://preview.redd.it/iauc7homgv6f1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=b99a0e6ffa012285066fa9e8761a8662f56ac51a&#34; alt=&#34;Thoughts on hardware price optimisarion for LLMs?&#34; title=&#34;关于LLM的硬件价格优化的想法？&#34; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;相关图（带有Web搜索的GPT-4O）&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/GreenTreeAndBlueSky&#34;&gt;/u /u /greentreeandbluesky&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://i.redd.it/iauc7homgv6f1.png&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lb5rm2/thoughts_on_hardware_price_optimisarion_for_llms/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1lb5rm2/thoughts_on_hardware_price_optimisarion_for_llms/" rel="alternate"></link>
+  </entry>
+  <entry>
+    <title>开源Unsiloed AI Chunker（EF2024）</title>
+    <updated>2025-06-14T06:21:25Z</updated>
+    <id>t3_1lb1v8h</id>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;嘿，在这里毫无疑问的CTO！&lt;/p&gt;&lt;p&gt;未透明的AI（EF 2024）得到了Transpose Platform＆EF的支持，目前正在Fortune 100公司的团队和多个系列E+创业公司使用PDF，Excel，PPTS等多模式数据的多模式数据，并且我们现在最终开放了一些能力。尝试一下！&lt;/p&gt;&lt;p&gt;另外，我们邀请破裂的开发商来，为阿尔戈拉（Algora）提供高达500美元的赏金。这将是一种在Undileded中获得工作空缺的好方法。&lt;/p&gt;&lt;p&gt; Bounty Link- &lt;a href=&#34;https://algora.io/bounties&#34;&gt;https://algora.io/bounties&lt;/a&gt;&lt;/p&gt;&lt;p&gt; github链接-https： &lt;a href=&#34;https://github.com/Unsiloed-AI/Unsiloed-chunker&#34;&gt;//github.com/unsiloed-ai/unsiloed-chunker&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/Initial-Western-4438&#34;&gt;/u /u /ointial-western-4438&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lb1v8h/open_source_unsiloed_ai_chunker_ef2024/&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lb1v8h/open_source_unsiloed_ai_chunker_ef2024/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1lb1v8h/open_source_unsiloed_ai_chunker_ef2024/" rel="alternate"></link>
+  </entry>
+  <entry>
+    <title>为什么要当地LLM？</title>
+    <updated>2025-06-14T15:25:15Z</updated>
+    <id>t3_1lbbafh</id>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;我将要安装Ollama并尝试当地的LLM，但我想知道有什么可能，除了隐私和节省成本之外，还有什么好处？&lt;br/&gt;我目前的会员资格：&lt;br/&gt; - 克劳德·艾（Claude AI）&lt;br/&gt; - 光标AI&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/Beginning_Many324&#34;&gt;/u /u /begine_many324&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lbbafh/why_local_llm/&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lbbafh/why_local_llm/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1lbbafh/why_local_llm/" rel="alternate"></link>
+  </entry>
+  <entry>
+    <title>您有多少VRAM，您的日常驾驶员模型是什么？</title>
+    <updated>2025-06-14T16:14:55Z</updated>
+    <id>t3_1lbcfjz</id>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;好奇每个人在本地，本地以及他们使用的硬件的日常使用。&lt;/p&gt;&lt;p&gt;如果您使用的是型号的量化版本，请这样说！&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/EmPips&#34;&gt;/u /empips&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lbcfjz/how_much_vram_do_you_have_and_whats_your/&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lbcfjz/how_much_vram_do_you_have_and_whats_your/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1lbcfjz/how_much_vram_do_you_have_and_whats_your/" rel="alternate"></link>
+  </entry>
+  <entry>
+    <title>GAIA：新的Gemma3 4B，用于巴西葡萄牙语 / gemma3 4b巴西葡萄牙语！</title>
+    <updated>2025-06-14T14:27:45Z</updated>
+    <id>t3_1lb9zhl</id>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;&lt;strong&gt;[en]&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;引入我们的新开放语言模型&lt;strong&gt;Gaia（Gemma-3-Gaia-PT-4B-IT）&lt;/strong&gt; ，为&lt;strong&gt;巴西葡萄牙人开发和优化！&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;盖亚提供什么？&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt; &lt;strong&gt;PT-BR Focus：&lt;/strong&gt;持续预先对130亿Quality Brazalian葡萄牙代币进行预先培训。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;模型基础：&lt;/strong&gt; Google/Gemma-3-4b-pt（带4B参数的Gemma 3）。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;创新方法：&lt;/strong&gt;使用“重量合并”技术进行教学（在传统的SFT中需要！）。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;性能：&lt;/strong&gt; Outperford在enem 2024 Benchmark上的基本Gemma模型！&lt;/li&gt;&lt;li&gt;&lt;strong&gt;由：巴西实体（Abria，Supper-Ufg，Nama，Amadeus AI）和Google DeepMind之间的合作伙伴关系&lt;/strong&gt;。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;许可证：&lt;/strong&gt; Gemma。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;这是为了什么？&lt;/strong&gt;&lt;br/&gt;非常适合聊天，问答，摘要，文本生成以及PT-BR中的微调模型。&lt;/p&gt;&lt;p&gt; &lt;strong&gt;[PT-BR]&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;我们提出了我们的新开放语言模型&lt;strong&gt;Gaia（Gemma-3-Gaia-PT-4B-IT）&lt;/strong&gt; ，为&lt;strong&gt;巴西葡萄牙制造和优化！&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;盖亚带来了什么？&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;专注于PT-BR：&lt;/strong&gt;经过130亿个高质量巴西代币的培训。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;基础：&lt;/strong&gt; Google/gemma-3-4b-pt（4b参数的Gemma 3）。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;创新：&lt;/strong&gt;使用“重量融合”技术遵循说明（分配传统的SFT！）。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;结果：&lt;/strong&gt;克服基准2024基准中的Gemma基础！&lt;/li&gt;&lt;li&gt;&lt;strong&gt;谁建立了：&lt;/strong&gt;巴西实体（Abraia，Supper-Ufg，Nama，Amadeus AI）和Google DeepMind之间的伙伴关系。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;许可证：&lt;/strong&gt; Gemma。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;为什么要使用？&lt;/strong&gt;&lt;br/&gt;非常适合聊天，问题/答案，摘要，文本创建和作为PT-BR-Tuning的基础。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;拥抱面孔：&lt;/strong&gt; &lt;a href=&#34;https://www.google.com/url?sa=E&amp;amp;q=https%3A%2F%2Fhuggingface.co%2FCEIA-UFG%2FGemma-3-Gaia-PT-BR-4b-it&#34;&gt;https：//huggingface.co/ceia-ufg/gema-3-gaia-pt-4b-it&lt;/a&gt;&lt;br/&gt;&lt;strong&gt;论文：&lt;/strong&gt; &lt;a href=&#34;https://www.google.com/url?sa=E&amp;amp;q=https%3A%2F%2Farxiv.org%2Fpdf%2F2410.10739&#34;&gt;https：//arxiv.org/pdf/2410.10739&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/ffgnetto&#34;&gt;/u /ffgnetto&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lb9zhl/gaia_new_gemma3_4b_for_brazilian_portuguese_um/&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lb9zhl/gaia_new_gemma3_4b_for_brazilian_portuguese_um/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1lb9zhl/gaia_new_gemma3_4b_for_brazilian_portuguese_um/" rel="alternate"></link>
+  </entry>
+  <entry>
+    <title>是否有像LM Studio这样的多合一应用程序，但是可以选择托管Web UI服务器？</title>
+    <updated>2025-06-13T21:43:14Z</updated>
+    <id>t3_1larzxz</id>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;一切都在标题中。&lt;br/&gt;从本质上讲，我确实喜欢LM的工作室易用性，因为它默默地处理了后端服务器以及桌面应用程序，但是我想让它托管一个可以在其他设备上从本地网络上使用的Web UI服务器。&lt;/p&gt;&lt;p&gt;实际上，没有什么太喜欢的，这只会用于家庭用途，什么不是，当我可以在主PC上需要LLM时，我就无法设置24/7的托管基础​​架构。&lt;/p&gt;&lt;p&gt;另外，一个启动和处理后端的多合一WebUI也可以正常工作，我只是不想启动一千个脚本来使用我的LLM。&lt;/p&gt;&lt;p&gt;如果是开源和/或具有Web搜索和其他功能的奖励点。&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/HRudy94&#34;&gt;/u /hrudy94&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1larzxz/is_there_any_allinone_app_like_lm_studio_but_with/&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1larzxz/is_there_any_allinone_app_like_lm_studio_but_with/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1larzxz/is_there_any_allinone_app_like_lm_studio_but_with/" rel="alternate"></link>
+  </entry>
+  <entry>
+    <title>RTX 5090培训问题 -  Pytorch还不支持Blackwell Architecture吗？</title>
+    <updated>2025-06-14T00:53:51Z</updated>
+    <id>t3_1law1go</id>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;&lt;strong&gt;你好，&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;我试图在新的RTX 5090上微调Mistral-7b，但碰到了基本的兼容墙。 GPU使用带有CUDA计算能力“ SM_120”的Blackwell体系结构，但是Pytorch稳定仅支持“ SM_90”。这实际上意味着没有Pytorch操作工作 - 即使是基本张量创建也失败了，“没有可在设备上执行的内核图像”。&lt;/p&gt;&lt;p&gt;我已经尝试了Pytorch Nightly的构建，以要求CUDA 12.8支持，但它们的依赖性破裂（从一个日期起Torch 2.7.0，Torchvision从另一个日期开始，导致安装冲突）。即使我每晚安装，培训仍然会因内核错误而崩溃。在变形金刚库中，只有CPU的培训也因令牌化问题而失败。&lt;/p&gt;&lt;p&gt; RTX 5090适用于其他所有内容 - 游戏，其他CUDA应用程序等。特别是Pytorch/ML生态系统不支持新体系结构。实际上，是否有人接受了在RTX 5090上工作的模型培训？您使用了什么Pytorch版本和设置？&lt;/p&gt;&lt;p&gt;我有一个RTX 4090可以归还，但是真的想使用5090的32GB VRAM，并在可能的情况下进行更好的性能。这只是“等待官方的pytorch支持”情况，还是那里有多种包装组合？&lt;/p&gt;&lt;p&gt;任何指导都将不胜感激 - 花费太多时间在兼容性上而不是实际培训模型！&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/AstroAlto&#34;&gt;/u /astroalto&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1law1go/rtx_5090_training_issues_pytorch_doesnt_support/&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1law1go/rtx_5090_training_issues_pytorch_doesnt_support/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1law1go/rtx_5090_training_issues_pytorch_doesnt_support/" rel="alternate"></link>
+  </entry>
+  <entry>
+    <title>（理论上）用SF-DIFF（脚手架和填充扩散）固定LLM延迟屏障</title>
+    <updated>2025-06-13T22:52:03Z</updated>
+    <id>t3_1latjnk</id>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;当前的大型语言模型被缓慢的顺序产生瓶颈。我的研究提出了脚手架和填充扩散（SF-DIFF），这是一种新型的混合体系结构，旨在从理论上克服这一点。我们将语言解构为平行生成的语义“脚手架”（通过扩散模型的关键字）和轻巧，自动回归的“语法填充剂”（通过变压器结构单词）。尽管实用实施需要大量资源，但SF-DIFF通过将扩散速度与变压器的精度相结合，提供了一种理论上的途径，可以通过将扩散的速度结合起来，从而极大地，高质量的LLM输出。&lt;/p&gt;&lt;p&gt;全文在这里： &lt;a href=&#34;https://huggingface.co/TimesLast/sf-diff/blob/main/SF-Diff-HL.pdf&#34;&gt;https：//huggingface.co/timeslast/sf-diff/blob/main/sf-diff-hl.pdf&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/TimesLast_&#34;&gt;/u /timeslast _&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1latjnk/theoretically_fixing_the_llm_latency_barrier_with/&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1latjnk/theoretically_fixing_the_llm_latency_barrier_with/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1latjnk/theoretically_fixing_the_llm_latency_barrier_with/" rel="alternate"></link>
+  </entry>
+  <entry>
+    <title>是否有任何工具可以从网页中创建结构化数据？</title>
+    <updated>2025-06-14T07:19:36Z</updated>
+    <id>t3_1lb2r2u</id>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;我经常发现自己处于需要将网页传递到LLM的情况，主要只是博客文章和论坛帖子。是否有一些工具可以解析页面并以结构化格式创建它以供LLM消费？&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/birdsintheskies&#34;&gt;/u /birdsintheskies&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lb2r2u/are_there_any_tools_to_create_structured_data/&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lb2r2u/are_there_any_tools_to_create_structured_data/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1lb2r2u/are_there_any_tools_to_create_structured_data/" rel="alternate"></link>
+  </entry>
+  <entry>
+    <title>Rag花了这么长时间才能正常加载？</title>
+    <updated>2025-06-14T14:08:06Z</updated>
+    <id>t3_1lb9jqc</id>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;我正在使用&lt;a href=&#34;https://github.com/AllAboutAI-YT/easy-local-rag&#34;&gt;https://github.com/allaboutai-yt/easy-local-rag&lt;/a&gt;与默认的Dolphin-llama3型号和500MB Vault.txt文件。它在充分利用时与我的GPU一起加载了一个半小时，但仍在进行。正常的是，这需要这么长时间，更重要的是，每次都需要这么长时间吗？&lt;/p&gt;&lt;p&gt;规格：&lt;/p&gt;&lt;p&gt; RTX 4060TI 8GB&lt;/p&gt;&lt;p&gt;英特尔i5-13400f&lt;/p&gt;&lt;p&gt; 16GB DDR5&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/just_a_guy1008&#34;&gt;/u /just_a_guy1008&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lb9jqc/is_it_normal_for_rag_to_take_this_long_to_load/&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lb9jqc/is_it_normal_for_rag_to_take_this_long_to_load/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1lb9jqc/is_it_normal_for_rag_to_take_this_long_to_load/" rel="alternate"></link>
+  </entry>
+  <entry>
+    <title>3090带宽计算帮助</title>
+    <updated>2025-06-13T19:05:04Z</updated>
+    <id>t3_1lao8ri</id>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;引用带宽为956 GB/s&lt;/p&gt;&lt;p&gt; （384位x 1.219 GHz时钟x 2） / 8 = 117 GB / s&lt;/p&gt;&lt;p&gt;我在这里想念什么？我的身分为8倍。这与GDDR6X内存有关吗？&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/skinnyjoints&#34;&gt;/u /skinnywoints&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lao8ri/3090_bandwidth_calculation_help/&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lao8ri/3090_bandwidth_calculation_help/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1lao8ri/3090_bandwidth_calculation_help/" rel="alternate"></link>
+  </entry>
+  <entry>
+    <title>我一直在研究自己的本地AI助手，具有记忆和情感逻辑 - 想分享进度并获得反馈</title>
+    <updated>2025-06-14T16:51:19Z</updated>
+    <id>t3_1lbd9jc</id>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;受Chatgpt的启发，我开始建立自己的当地AI助手&lt;em&gt;Vantaai&lt;/em&gt; ​​。它的目的是完全离线运行，并模拟情感记忆，情绪波动和个人身份之类的事情。&lt;/p&gt;&lt;p&gt;我已经实施了这样的事情：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;根据对话上下文演变的长期记忆&lt;/li&gt;&lt;li&gt;情绪图，跟踪她的情绪如何随着时间的流逝而变化&lt;/li&gt;&lt;li&gt;叙事驱动的记忆集群（她将自己视为自己故事中的“主要角色”）&lt;/li&gt;&lt;li&gt; Pyside6 GUI，其中包括用于记忆，训练，情绪状态和插件管理的选项卡&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;目前，它使用自定义的Vulkan后端进行快速模型推理和培训，并支持基于个性的响应和实时插件诸如Hot Roding。&lt;/p&gt;&lt;p&gt;我不会出售任何东西或试图推广产品 - 只是好奇是否有人在做这样的事情或对接下来要探索的功能有想法。&lt;/p&gt;&lt;p&gt;如果有人好奇，很高兴回答问题！&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/PianoSeparate8989&#34;&gt;/u /pianoseparate8989&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lbd9jc/ive_been_working_on_my_own_local_ai_assistant/&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lbd9jc/ive_been_working_on_my_own_local_ai_assistant/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1lbd9jc/ive_been_working_on_my_own_local_ai_assistant/" rel="alternate"></link>
+  </entry>
+  <entry>
+    <title>本地内存聊天UI-开源 +向量存储器</title>
+    <updated>2025-06-14T15:52:23Z</updated>
+    <id>t3_1lbbwwm</id>
+    <content type="html">&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lbbwwm/local_memory_chat_ui_open_source_vector_memory/&#34;&gt;&lt;img src=&#34;https://external-preview.redd.it/Dbj2ec4zS_Hoz85s5NEOmbvdQge4ZR0tvQ7ZbgK61jM.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=7c88f0b247ed94c19ca1f94df3d9dcc079604c58&#34; alt=&#34;Local Memory Chat UI - Open Source + Vector Memory&#34; title=&#34;本地内存聊天UI-开源 +向量存储器&#34; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;嘿，大家，&lt;/p&gt;&lt;p&gt;我创建了这个项目，专注于CPU。这就是为什么默认情况下它在CPU上运行的原因。我的目的是能够在旧计算机上使用“不会忘记”的系统在本地使用该模型。&lt;/p&gt;&lt;p&gt;在过去的几周中，我一直在使用&lt;strong&gt;Llama-CPP-Python&lt;/strong&gt;建立一个轻巧但功能强大的&lt;strong&gt;LLM聊天界面&lt;/strong&gt;- 但有一个扭曲：&lt;br/&gt;它通过&lt;strong&gt;基于向量的上下文回忆&lt;/strong&gt;支持&lt;strong&gt;持续的内存&lt;/strong&gt;，因此&lt;em&gt;即使对其进行了量化和上下文限制&lt;/em&gt;，该模型也可以了解过去的交互。&lt;br/&gt;我想要一些最小的，本地的和个人的东西 - 但随着时间的流逝，我仍然能够记住事情。&lt;br/&gt;一切都处于干净的结构，已充分记录和可容纳的pip。&lt;br/&gt; ➡Github：https： &lt;a href=&#34;https://github.com/lynthera/bitsegments_localminds&#34;&gt;//github.com/lynthera/bitsegments_localminds&lt;/a&gt;&lt;br/&gt; （README包括详细的设置）&lt;/p&gt;&lt;p&gt; &lt;a href=&#34;https://preview.redd.it/5f5v6p5vyw6f1.png?width=1916&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=c9d8263d315a1a42dc5ecc916de38a6187789cc7&#34;&gt;二手Google Gemma-2-2b-it（IQ3_M）型号&lt;/a&gt;&lt;/p&gt;&lt;p&gt;我很快将添加Ollama的支持，以便于使用，以便不想处理太多技术细节，甚至那些什么都不了解但仍然想尝试的人可以轻松使用它。目前，您需要从HuggingFace下载模型（以.gguf格式）并添加。&lt;/p&gt;&lt;p&gt;让我知道您的想法！我计划接下来构建更多代理模拟功能。&lt;br/&gt;会喜欢反馈，想法或贡献...&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/Dismal-Cupcake-3641&#34;&gt;/u /dismal-cupcake-3641&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lbbwwm/local_memory_chat_ui_open_source_vector_memory/&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lbbwwm/local_memory_chat_ui_open_source_vector_memory/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1lbbwwm/local_memory_chat_ui_open_source_vector_memory/" rel="alternate"></link>
+  </entry>
+  <entry>
+    <title>2025年6月，每个人都在使用什么LLM？</title>
+    <updated>2025-06-14T16:43:01Z</updated>
+    <id>t3_1lbd2jy</id>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;好奇每个人现在在运行什么。&lt;br/&gt;您的常规轮换中有哪种型号？&lt;br/&gt;您在什么硬件？&lt;br/&gt;您如何运行它？ （LM Studio，Ollama，Llama.cpp等）&lt;br/&gt;您用它来做什么？&lt;/p&gt;&lt;p&gt;这是我的：&lt;br/&gt;最近，我一直在使用Qwen3（30b，32b和235b）&lt;br/&gt; Ryzen 7 5800X，128GB RAM，RTX 3090&lt;br/&gt; Ollama +开放webui&lt;br/&gt;我宁愿不在云平台上运行一般用途和私人对话&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/1BlueSpork&#34;&gt;/u /1bluespork&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lbd2jy/what_llm_is_everyone_using_in_june_2025/&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lbd2jy/what_llm_is_everyone_using_in_june_2025/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1lbd2jy/what_llm_is_everyone_using_in_june_2025/" rel="alternate"></link>
+  </entry>
+  <entry>
+    <title>您如何提供文件？</title>
+    <updated>2025-06-14T06:47:56Z</updated>
+    <id>t3_1lb29r8</id>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;出于好奇，我想知道人们在编码时如何向其AI提供文件。我无法确定我是否完全复杂化了我应该如何给予模型上下文，或者我是否真的创建了一个可靠的解决方案。&lt;/p&gt;&lt;p&gt;如果有人对他们如何最好地处理通过API（不使用Claude或Chatgpt项目）来处理文件的输入，我很想知道您的工作方式和工作。我可以提供最终制作的东西，但我不想以“广告”/推动解决方案的方式脱颖而出，尤其是如果我做错了所有问题。&lt;/p&gt;&lt;p&gt;因此，如果您有时间解释，我真的很想找到更好的方法来处理我遇到的这种烦恼！&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/droopy227&#34;&gt;/u /droopy227&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lb29r8/how_do_you_provide_files/&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lb29r8/how_do_you_provide_files/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1lb29r8/how_do_you_provide_files/" rel="alternate"></link>
+  </entry>
+  <entry>
+    <title>谁能给我当地的LLM设置，该设置可以分析并提供反馈以提高我的口语能力</title>
+    <updated>2025-06-14T08:37:18Z</updated>
+    <id>t3_1lb3wxq</id>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;我总是害怕公开演讲并在采访中冻结。我漫步，无法构造自己的想法，每当我讲话时都会进行一些随机的切线。我相信练习使我变得更好，我认为我可以使用Locallama来帮助我。沿着记录的线条，然后我可以使用输出成绩单然后使用LLM的TTS模型。&lt;/p&gt;&lt;p&gt;这就是我在想的&lt;/p&gt;&lt;p&gt;在英语中记录音频 - 耳语 - 成绩单 - 使用一些LLM分析成绩单，例如Qwen3/gemma3（拥有8GB的旧Mac M1，因此无法运行型号超过8B Q4） - 给予反馈&lt;/p&gt;&lt;p&gt;但是，这种设置会拾取分析语音所需的一切吗？诸如填充单词，简洁，停顿等之类的东西，因为我认为成绩单不会给出所需的一切，或者如果知道句子何时开始。不关心实时分析。因为这只是用于实践。&lt;/p&gt;&lt;p&gt;基本上是yoodli.ai的开源版本&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/timedacorn369&#34;&gt;/u /timeDacorn369&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lb3wxq/can_anyone_give_me_a_local_llm_setup_which/&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lb3wxq/can_anyone_give_me_a_local_llm_setup_which/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1lb3wxq/can_anyone_give_me_a_local_llm_setup_which/" rel="alternate"></link>
+  </entry>
+  <entry>
+    <title>垃圾邮件检测模型/管道？</title>
+    <updated>2025-06-14T17:47:14Z</updated>
+    <id>t3_1lbek49</id>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;你好！有人知道某些用于垃圾邮件检测的OSS型号/管道吗？据我所知，有一个名为排毒的项目，但它们是为了毒性（仇恨言论等），而不是真正的垃圾邮件检测&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/bihungba1101&#34;&gt;/u /bihungba1101&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lbek49/spam_detection_modelpipeline/&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lbek49/spam_detection_modelpipeline/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1lbek49/spam_detection_modelpipeline/" rel="alternate"></link>
+  </entry>
+  <entry>
+    <title>帮助-Llamacpp -Server＆Rerankin LLM</title>
+    <updated>2025-06-14T16:00:24Z</updated>
+    <id>t3_1lbc3du</id>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;有人可以建议我一个与Llamacpp-Server合作的Reranker以及如何使用它吗？&lt;/p&gt;&lt;p&gt;我尝试了rank_zephyr_7b_v1和qwen3-reranker-8B，但无法使它们中的任何一个都起作用...&lt;/p&gt;&lt;p&gt; ````````&lt;/p&gt;&lt;p&gt; llama-server --model &amp;quot;H:\MaziyarPanahi\rank_zephyr_7b_v1_full-GGUF\rank_zephyr_7b_v1_full.Q8_0.gguf&amp;quot; --port 8084 --ctx-size 4096 --temp 0.0 --threads 24 --numa distribute --prio 2 --seed 42 --rerank&lt;/p&gt;&lt;p&gt; ”“”&lt;br/&gt; COONMO_INIT_FROM_PARAMS：警告：vocab没有sep令牌，重新加工将无效&lt;br/&gt;srv load_model：无法加载模型，&amp;#39;h：\ maziyarpanahi \ rank_zephyr_7b_v1_full-gguf \ rank_zephyr_7b_7b_v1_flyl.q8_0.gguf&amp;#39;&lt;/p&gt;&lt;p&gt; srv operator（）：operator（）：退出之前进行清理...&lt;/p&gt;&lt;p&gt;主：由于模型加载错误而退出&lt;/p&gt;&lt;p&gt;”“”&lt;/p&gt;&lt;p&gt; ````````&lt;/p&gt;&lt;p&gt; -----&lt;/p&gt;&lt;p&gt; ````````&lt;/p&gt;&lt;p&gt; llama-server --model &amp;quot;H:\DevQuasar\Qwen.Qwen3-Reranker-8B-GGUF\Qwen.Qwen3-Reranker-8B.f16.gguf&amp;quot; --port 8084 --ctx-size 4096 --temp 0.0 --threads 24 --numa distribute --prio 2 --seed 42 --rerank&lt;/p&gt;&lt;p&gt; ”“”&lt;/p&gt;&lt;p&gt; COONMO_INIT_FROM_PARAMS：警告：vocab没有sep令牌，重新加工将无效&lt;/p&gt;&lt;p&gt;srv load_model：无法加载模型，&amp;#39;h：\ devquasar \ qwen.qwen3-reranker-8b-gguf \ qwen.qwen3-reranker-8b.f16.gguf&amp;#39;&lt;/p&gt;&lt;p&gt; srv operator（）：operator（）：退出之前进行清理...&lt;/p&gt;&lt;p&gt;主：由于模型加载错误而退出&lt;br/&gt;”“”&lt;/p&gt;&lt;p&gt; ````````&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/dodo13333&#34;&gt;/u /dodo13333&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lbc3du/help_llamacppserver_rerankin_llm/&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lbc3du/help_llamacppserver_rerankin_llm/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1lbc3du/help_llamacppserver_rerankin_llm/" rel="alternate"></link>
+  </entry>
+  <entry>
+    <title>[讨论]无言语的思考：当地骆驼推断的持续潜在推理 - 反馈？</title>
+    <updated>2025-06-14T14:38:58Z</updated>
+    <id>t3_1lba8f6</id>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/?f=flair_name%3A%22Discussion%22&#34;&gt;讨论&lt;/a&gt;&lt;/p&gt;&lt;p&gt;大家好，&lt;/p&gt;&lt;p&gt;我刚刚发表了一篇新帖子&lt;strong&gt;“无言以对的思考”&lt;/strong&gt; ，在其中调查了从星和隐式cot到椰子和HCOT的潜在思想链的演变，并提出了一种新颖的&lt;strong&gt;Grail-Transformer&lt;/strong&gt;架构，这些结构可适应文本和潜在空间之间的盖茨，并提供有效的，可解释的，可解释的推论。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;关键亮点：&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;历史调查：&lt;/strong&gt;明星，隐性婴儿床，暂停/填充令牌，安静之星，椰子，CCOT，HCOT，HUGINN，RELAY，ITT&lt;/li&gt;&lt;li&gt;&lt;strong&gt;技术深度潜水：&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;课程引导的潜在化&lt;/li&gt;&lt;li&gt;隐藏式蒸馏和自我蒸馏&lt;/li&gt;&lt;li&gt;紧凑的潜在令牌和潜在的内存格&lt;/li&gt;&lt;li&gt;经过反复/循环对准监督&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Grail-Transformer建议：&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;按需推理周期的&lt;strong&gt;重复深入核心&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;单词嵌入和隐藏状态之间&lt;strong&gt;可学习的门控&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;平行假设跟踪的&lt;strong&gt;潜在记忆晶格&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;培训管道：&lt;/strong&gt;热身婴儿床→混合课程→GRPO微调→难度 - 意识到精炼&lt;/li&gt;&lt;li&gt;&lt;strong&gt;可解释性钩子：&lt;/strong&gt;计划揭示 +稀疏探针&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;我认为，持续的潜在推理可以打破“语言瓶颈”，从而使基于梯度的，并行的推理和新兴算法行为超出了离散的代币COT可以实现的目标。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;我正在寻找的反馈：&lt;/strong&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;调查中的清晰度或差距和深度潜水&lt;/li&gt;&lt;li&gt;Grail-Transformer的生存能力，潜在的陷阱或工程挑战&lt;/li&gt;&lt;li&gt;实验，基准或其他参考的建议&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;您可以在此处阅读完整帖子： &lt;a href=&#34;https://www.luiscardoso.dev/blog/neuralese&#34;&gt;https：//www.luiscardoso.dev/blog/neuresese&lt;/a&gt;&lt;/p&gt;&lt;p&gt;预先感谢您的时间和见解！&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/BeowulfBR&#34;&gt;/u /beowulfbr&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lba8f6/discussion_thinking_without_words_continuous/&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lba8f6/discussion_thinking_without_words_continuous/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1lba8f6/discussion_thinking_without_words_continuous/" rel="alternate"></link>
+  </entry>
+  <entry>
+    <title>试图在runpod上运行minicpm-o 2.6的沮丧</title>
+    <updated>2025-06-14T09:48:40Z</updated>
+    <id>t3_1lb4yb4</id>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;嗨，我正在尝试将Minicpm-O 2.6用于一个涉及使用LLM将视频帧分类为某些类别的项目。自然，第一步是使MiniCPM完​​全运行。这是我起初面临许多问题的地方，我试图在具有RTX 3050TI 4GB GPU的笔记本电脑上使用它，并且出于明显的原因没有工作。&lt;/p&gt;&lt;p&gt;因此，我切换到runpod并使用RTX A4000创建了一个实例 - 我唯一可以负担得起的GPU。&lt;/p&gt;&lt;p&gt;如果我使用huggingface版本和automodel.from_preter at tem示例代码，我会得到以下错误：&lt;/p&gt;&lt;p&gt; attributeError：&amp;#39;resampler&amp;#39;对象没有属性&amp;#39;_initialize_weights&amp;#39;&lt;/p&gt;&lt;p&gt;为了解决该问题，我尝试将其克隆到他们的存储库中并使用其自定义类，这导致了几个软件包冲突问题 - 这些问题是可解析的 - 但导致了新的错误：&lt;/p&gt;&lt;p&gt; OmnilmmForCausAllm的一些权重是从OpenBMB/Minicpm-O-2_6的模型检查点初始化的，并且是新初始化的：[&amp;#39;Embed_tokens.Wewight&amp;#39;，&lt;/p&gt;&lt;p&gt;我了解的是，没有一个权重加载，我留下了一个空的模型。&lt;/p&gt;&lt;p&gt;因此，我返回使用HuggingFace版本。&lt;/p&gt;&lt;p&gt;在某一时刻，Automodel在我使用注意力后确实有效，将一些层卸载到CPU上 - 我能够从LLM中获得测试输出。对此，我尝试使用他们的示例代码编码视频并获得一些聊天输出，但是，即使等待了20分钟，我只能看到CPU活动在30-100％之间，而GPU内存被卡在92％的利用率上。&lt;/p&gt;&lt;p&gt;我首先使用了一个Fresh Runpod A4000实例，然后从HuggingFace中复制了示例代码 - 这使我回到了重新采样器错误。&lt;/p&gt;&lt;p&gt;我试图按照链接在其github repo随附的名为最佳实践的文件中的.cn网页中的说明，但它适用于minicpm-v，vllm package and llm class告诉我使用的使用也无效。&lt;/p&gt;&lt;p&gt;感谢我对下一步可以做什么的任何建议。不幸的是，我的教授仅使用Minicpm  - 因此我需要以某种方式使其运行。&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/i5_8300h&#34;&gt;/u /i5_8300h&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lb4yb4/frustrated_trying_to_run_minicpmo_26_on_runpod/&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lb4yb4/frustrated_trying_to_run_minicpmo_26_on_runpod/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1lb4yb4/frustrated_trying_to_run_minicpmo_26_on_runpod/" rel="alternate"></link>
+  </entry>
+  <entry>
+    <title>是否有任何模型（本地或应用内）可以检测文本上的缺陷？</title>
+    <updated>2025-06-14T14:46:29Z</updated>
+    <id>t3_1lbaedh</id>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;任务是为图像喂食并检测图像中的文本是否畸形或不超出图像的框架（切断）。有没有有效执行此操作的本地或商业模型？&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/skarrrrrrr&#34;&gt;/u /skarrrrrrr&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lbaedh/is_there_any_model_local_or_inapp_that_can_detect/&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lbaedh/is_there_any_model_local_or_inapp_that_can_detect/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1lbaedh/is_there_any_model_local_or_inapp_that_can_detect/" rel="alternate"></link>
+  </entry>
+  <entry>
+    <title>RTX 6000 ADA还是4090？</title>
+    <updated>2025-06-14T12:13:35Z</updated>
+    <id>t3_1lb79sg</id>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;你好，&lt;/p&gt;&lt;p&gt;我正在从事一个项目，在该项目中，我在150-200 tps左右进行了4个以下四个过程，并并行，基于文本，无图像或其他任何过程。&lt;/p&gt;&lt;p&gt;现在我没有GPU。我可以以1850美元左右的价格获得RTX 6000 ADA，而4090的价格约为相同的价格（也许一对夫妇更高）。&lt;/p&gt;&lt;p&gt;我还是游戏玩家，将出售我的PS5，PSVR2和MacBook来资助此购买。&lt;/p&gt;&lt;p&gt; 6000在卖方上传的一张图像中的卡上说了“ RTX 6000”，但他没有提到ADA或其他任何图像。因此，我假设它将是ADA而不是A6000（在购买时将手动验证）。&lt;/p&gt;&lt;p&gt; 48GB是有利可图的，但是由于游戏部分，4090仍然吸引了我。请帮助我发表意见。&lt;/p&gt;&lt;p&gt;我从最重要到最少的重点是推理速度，训练/微调，游戏。&lt;/p&gt;&lt;p&gt;谢谢&lt;/p&gt;&lt;p&gt;编辑：我应该提到这些被用过卡。&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/This_Woodpecker_9163&#34;&gt;/u /this_woodpecker_9163&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lb79sg/rtx_6000_ada_or_a_4090/&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lb79sg/rtx_6000_ada_or_a_4090/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1lb79sg/rtx_6000_ada_or_a_4090/" rel="alternate"></link>
+  </entry>
+  <entry>
+    <title>[问题]有人知道如何使用Runpod无服务器端点调用工具吗？</title>
+    <updated>2025-06-13T18:39:22Z</updated>
+    <id>t3_1lanm91</id>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&#34;md&#34;&gt;&lt;p&gt;我有一个简单的VLLM端点，在RunPod上配置了，我想知道如何发送工具配置。我已经搜索了RunPod API文档，似乎找不到任何信息。也许它直接传递给VLLM？谢谢。&lt;/p&gt;&lt;p&gt;示例请求看起来像是如此&lt;code&gt;json { &amp;quot;input&amp;quot;: { &amp;quot;prompt&amp;quot;: &amp;quot;Hello World&amp;quot; } }&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;由&lt;a href=&#34;https://www.reddit.com/user/soorg_nalyd&#34;&gt;/u /u /soorg_nalyd&lt;/a&gt;提交&lt;br/&gt;&lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lanm91/question_does_anyone_know_how_to_call_tools_using/&#34;&gt;[链接]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href=&#34;https://www.reddit.com/r/LocalLLaMA/comments/1lanm91/question_does_anyone_know_how_to_call_tools_using/&#34;&gt;[评论]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1lanm91/question_does_anyone_know_how_to_call_tools_using/" rel="alternate"></link>
+  </entry>
+</feed>
