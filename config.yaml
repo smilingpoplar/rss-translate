@@ -5,6 +5,9 @@ output:
   url: https://cdn.jsdelivr.net/gh/smilingpoplar/rss-translate@rss/
 
 feeds:
+  semianalysis:
+    url: http://semianalysis.com/rss
+    max: 5
   economist - science-and-technology:
     url: https://www.economist.com/science-and-technology/rss.xml
     max: 10
