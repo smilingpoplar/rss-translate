@@ -82,7 +82,7 @@ func process(config *util.Config, hashes *util.Store) error {
 	parser := gofeed.NewParser()
 	for r := range resultCh {
 		if r.Err != nil {
-			return r.Err
+			continue // 下载失败，跳过
 		}
 
 		hash, err := util.MD5(r.Data)

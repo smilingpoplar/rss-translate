@@ -15,9 +15,7 @@ type Downloader struct {
 
 func NewDownloader() *Downloader {
 	return &Downloader{
-		client: &http.Client{
-			Timeout: 10 * time.Second,
-		},
+		client: &http.Client{},
 	}
 }
 
@@ -30,6 +28,7 @@ func (d *Downloader) GetURL(url string) ([]byte, error) {
 	b.InitialInterval = 500 * time.Millisecond
 	b.Multiplier = 1.5
 	b.RandomizationFactor = 0.5
+	b.MaxElapsedTime = 10 * time.Second
 
 	return backoff.RetryWithData(func() ([]byte, error) {
 		return d.getURL(url)
@@ -44,7 +43,7 @@ func (d *Downloader) getURL(url string) ([]byte, error) {
 	defer resp.Body.Close()
 
 	if resp.StatusCode != http.StatusOK {
-		return nil, fmt.Errorf("error http status code: %d", resp.StatusCode)
+		return nil, fmt.Errorf("error http status code: %d, url: %s", resp.StatusCode, url)
 	}
 
 	data, err := io.ReadAll(resp.Body)

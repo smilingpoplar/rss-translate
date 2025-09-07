@@ -7,7 +7,7 @@ output:
 feeds:
   semianalysis:
     url: http://semianalysis.com/rss
-    max: 5
+    max: 10
   economist - science-and-technology:
     url: https://www.economist.com/science-and-technology/rss.xml
     max: 10
