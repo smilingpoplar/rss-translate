@@ -31,7 +31,7 @@ feeds:
     max: 30
   ft - world:
     url: https://www.ft.com/world?format=rss
-    max: 30
+    max: 50
 
 fixes:
   法学硕士: LLM

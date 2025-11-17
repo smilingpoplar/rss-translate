@@ -143,7 +143,7 @@ func transformFeed(from *gofeed.Feed, limit int) *feeds.Feed {
 }
 
 func translateFeed(feed *feeds.Feed, toLang string, proxy string, fixes map[string]string) (*feeds.Feed, error) {
-	trans, err := translator.GetTranslator("google", proxy)
+	trans, err := translator.GetTranslator("google", proxy, fixes)
 	if err != nil {
 		return nil, fmt.Errorf("error creating translator: %w", err)
 	}
@@ -157,7 +157,6 @@ func translateFeed(feed *feeds.Feed, toLang string, proxy string, fixes map[stri
 	if err != nil {
 		return nil, fmt.Errorf("error translating feed %s: %w", feed.Link.Href, err)
 	}
-	util.ApplyTranslationFixes(texts, fixes)
 
 	for i, item := range feed.Items {
 		item.Title = texts[i*3]
