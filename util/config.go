@@ -12,7 +12,7 @@ type Config struct {
 	ToLang string                `yaml:"to-lang"`
 	Proxy  string                `yaml:"proxy"`
 	Feeds  map[string]FeedConfig `yaml:"feeds"`
-	Fixes  map[string]string     `yaml:"fixes"`
+	Glossary map[string]string    `yaml:"glossary"`
 }
 
 type OutputConfig struct {

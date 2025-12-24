@@ -33,5 +33,6 @@ feeds:
     url: https://www.ft.com/world?format=rss
     max: 50
 
-fixes:
-  法学硕士: LLM
+glossary:
+  LLM: LLM
+  LLMs: LLMs

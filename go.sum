@@ -38,8 +38,10 @@ github.com/rogpeppe/go-internal v1.9.0 h1:73kH8U+JUqXU8lRuOHeVHaa/SZPifC7BkcraZV
 github.com/rogpeppe/go-internal v1.9.0/go.mod h1:WtVeX8xhTBvf0smdhujwtBcq4Qrzq/fJaraNFVN+nFs=
 github.com/sashabaranov/go-openai v1.41.2 h1:vfPRBZNMpnqu8ELsclWcAvF19lDNgh1t6TVfFFOPiSM=
 github.com/sashabaranov/go-openai v1.41.2/go.mod h1:lj5b/K+zjTSFxVLijLSTDZuP7adOgerWeFyZLUhAKRg=
-github.com/smilingpoplar/translate v0.0.0-20251224144324-d5071672ab32 h1:7C8SQDtS167ya1wt00KF4vpgSffCqTNqulKB+yQe7LM=
-github.com/smilingpoplar/translate v0.0.0-20251224144324-d5071672ab32/go.mod h1:5RpDs1dRKSHi/2RtcjKuALjiVCSMFNote3Lws3wQVDc=
+github.com/smilingpoplar/translate v0.0.0-20251224180244-fc47711367b9 h1:XOEqLOW/6xNf9QsUgY+OVeYVagkszwEEXP3UZS5RRZ8=
+github.com/smilingpoplar/translate v0.0.0-20251224180244-fc47711367b9/go.mod h1:5RpDs1dRKSHi/2RtcjKuALjiVCSMFNote3Lws3wQVDc=
+github.com/smilingpoplar/translate v0.0.0-20251224181001-782a254ab020 h1:w1dtwGqmJ5hNobdCVwIrd9SVSPsWqj3J6K8Lk+w5CFk=
+github.com/smilingpoplar/translate v0.0.0-20251224181001-782a254ab020/go.mod h1:5RpDs1dRKSHi/2RtcjKuALjiVCSMFNote3Lws3wQVDc=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=
 github.com/stretchr/testify v1.8.1 h1:w7B6lhMri9wdJUVmEZPGGhZzrYTPvgJArz7wNPgYKsk=

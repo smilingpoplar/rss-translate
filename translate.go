@@ -101,7 +101,7 @@ func process(config *util.Config, hashes *util.Store) error {
 		}
 
 		to := transformFeed(from, config.Feeds[r.FeedName].Max)
-		if to, err = translateFeed(to, config.ToLang, config.Proxy, config.Fixes); err != nil {
+		if to, err = translateFeed(to, config.ToLang, config.Proxy, config.Glossary); err != nil {
 			return err
 		}
 		if err := writeFeed(to, config.Output.Dir, r.FeedName); err != nil {
@@ -142,8 +142,8 @@ func transformFeed(from *gofeed.Feed, limit int) *feeds.Feed {
 	return to
 }
 
-func translateFeed(feed *feeds.Feed, toLang string, proxy string, fixes map[string]string) (*feeds.Feed, error) {
-	trans, err := translator.GetTranslator("google", proxy, fixes)
+func translateFeed(feed *feeds.Feed, toLang string, proxy string, glossary map[string]string) (*feeds.Feed, error) {
+	trans, err := translator.GetTranslator("google", proxy, glossary)
 	if err != nil {
 		return nil, fmt.Errorf("error creating translator: %w", err)
 	}
