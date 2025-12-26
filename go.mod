@@ -6,7 +6,7 @@ require (
 	github.com/cenkalti/backoff/v4 v4.3.0
 	github.com/gorilla/feeds v1.2.0
 	github.com/mmcdole/gofeed v1.3.0
-	github.com/smilingpoplar/translate v0.0.0-20251224181001-782a254ab020
+	github.com/smilingpoplar/translate v0.0.0-20251227174719-a844651e432d
 	golang.org/x/net v0.48.0
 	gopkg.in/yaml.v2 v2.4.0
 )
@@ -21,6 +21,14 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e // indirect
 	github.com/sashabaranov/go-openai v1.41.2 // indirect
+	github.com/tidwall/btree v1.4.2 // indirect
+	github.com/tidwall/buntdb v1.3.2 // indirect
+	github.com/tidwall/gjson v1.14.3 // indirect
+	github.com/tidwall/grect v0.1.4 // indirect
+	github.com/tidwall/match v1.1.1 // indirect
+	github.com/tidwall/pretty v1.2.0 // indirect
+	github.com/tidwall/rtred v0.1.2 // indirect
+	github.com/tidwall/tinyqueue v0.1.1 // indirect
 	golang.org/x/sys v0.39.0 // indirect
 	golang.org/x/term v0.38.0 // indirect
 	golang.org/x/text v0.32.0 // indirect
