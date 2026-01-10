@@ -32,6 +32,10 @@ feeds:
   ft - world:
     url: https://www.ft.com/world?format=rss
     max: 50
+  simonwillison:
+    url: https://simonwillison.net/atom/everything/
+    max: 30
+
 
 glossary:
   LLM: LLM
