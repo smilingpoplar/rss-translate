@@ -7,34 +7,26 @@ output:
 feeds:
   semianalysis:
     url: http://semianalysis.com/rss
-    max: 10
   economist - science-and-technology:
     url: https://www.economist.com/science-and-technology/rss.xml
-    max: 10
   nature:
     url: https://www.nature.com/nature.rss
     max: 50
   memo - howard-marks:
     url: http://rss.art19.com/the-memo-by-howard-marks
-    max: 10
   theatlantic:
     url: https://www.theatlantic.com/feed/all/
-    max: 10
   mitpress:
     url: https://thereader.mitpress.mit.edu/feed/
-    max: 10
   american affairs:
     url: https://americanaffairsjournal.org/feed/
-    max: 20
   reddit - LocalLLamMA:
     url: https://www.reddit.com/r/LocalLLaMA/top.rss
-    max: 30
   ft - world:
     url: https://www.ft.com/world?format=rss
     max: 50
   simonwillison:
     url: https://simonwillison.net/atom/everything/
-    max: 30
 
 
 glossary:

@@ -37,6 +37,12 @@ func GetConfig(path string) (*Config, error) {
 	if err != nil {
 		return nil, fmt.Errorf("error decoding config: %w", err)
 	}
+	for k, feed := range config.Feeds {
+		if feed.Max == 0 {
+			feed.Max = 30
+			config.Feeds[k] = feed
+		}
+	}
 
 	return &config, nil
 }
