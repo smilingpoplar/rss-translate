@@ -6,7 +6,7 @@ require (
 	github.com/cenkalti/backoff/v4 v4.3.0
 	github.com/gorilla/feeds v1.2.0
 	github.com/mmcdole/gofeed v1.3.0
-	github.com/smilingpoplar/translate v0.0.0-20260130093129-479c8bf1b22d
+	github.com/smilingpoplar/translate v0.0.0-20260329165448-22656bb69da8
 	golang.org/x/net v0.48.0
 	gopkg.in/yaml.v2 v2.4.0
 )

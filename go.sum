@@ -40,6 +40,10 @@ github.com/sashabaranov/go-openai v1.41.2 h1:vfPRBZNMpnqu8ELsclWcAvF19lDNgh1t6TV
 github.com/sashabaranov/go-openai v1.41.2/go.mod h1:lj5b/K+zjTSFxVLijLSTDZuP7adOgerWeFyZLUhAKRg=
 github.com/smilingpoplar/translate v0.0.0-20260130093129-479c8bf1b22d h1:gjs2bP6jcsks7sGyPr+y2dTcpj9TPdbBV6bzIpp8BWU=
 github.com/smilingpoplar/translate v0.0.0-20260130093129-479c8bf1b22d/go.mod h1:m84boZGu7tnpcYdVDHrU5gMk1ElvslA+Cwz3obR+/ZQ=
+github.com/smilingpoplar/translate v0.0.0-20260217181014-0ea82af72c7e h1:KGkqhO2rNm58sNYWcdV3Xr4wkn+++2wwbI0eNXk3txo=
+github.com/smilingpoplar/translate v0.0.0-20260217181014-0ea82af72c7e/go.mod h1:m84boZGu7tnpcYdVDHrU5gMk1ElvslA+Cwz3obR+/ZQ=
+github.com/smilingpoplar/translate v0.0.0-20260329165448-22656bb69da8 h1:wuLSPDXpqE685CMa55gwMFMXuCinSnGm+DHr/0Bfqz4=
+github.com/smilingpoplar/translate v0.0.0-20260329165448-22656bb69da8/go.mod h1:m84boZGu7tnpcYdVDHrU5gMk1ElvslA+Cwz3obR+/ZQ=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=
 github.com/stretchr/testify v1.8.1 h1:w7B6lhMri9wdJUVmEZPGGhZzrYTPvgJArz7wNPgYKsk=
