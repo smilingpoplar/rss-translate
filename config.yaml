@@ -27,6 +27,8 @@ feeds:
     max: 50
   simonwillison:
     url: https://simonwillison.net/atom/everything/
+  brandonrohrer:
+    url: https://www.brandonrohrer.com/feed.xml
 
 
 glossary:
