@@ -6,7 +6,7 @@ output:
 
 feeds:
   semianalysis:
-    url: http://semianalysis.com/rss
+    url: https://newsletter.semianalysis.com/feed
   economist - science-and-technology:
     url: https://www.economist.com/science-and-technology/rss.xml
   nature:
