@@ -97,12 +97,14 @@ func process(config *util.Config, hashes *util.Store) error {
 
 		from, err := parser.Parse(bytes.NewReader(r.Data))
 		if err != nil {
-			return fmt.Errorf("error parsing feed %s: %w", r.FeedName, err)
+			fmt.Fprintln(os.Stderr, "error parsing feed", r.FeedName+":", err)
+			continue
 		}
 
 		to := transformFeed(from, config.Feeds[r.FeedName].Max)
 		if to, err = translateFeed(to, config.ToLang, config.Proxy, config.Glossary); err != nil {
-			return err
+			fmt.Fprintln(os.Stderr, "error translating feed", r.FeedName+":", err)
+			continue
 		}
 		if err := writeFeed(to, config.Output.Dir, r.FeedName); err != nil {
 			return err
