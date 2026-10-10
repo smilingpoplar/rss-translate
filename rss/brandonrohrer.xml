@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Brandon Rohrer</title>
+  <id>https://www.brandonrohrer.com</id>
+  <updated></updated>
+  <subtitle>Brandon Rohrer&#39;s blog</subtitle>
+  <link href="https://www.brandonrohrer.com"></link>
+  <entry>
+    <title>redsho 超参数优化的工作示例</title>
+    <updated>2026-09-30T04:36:00Z</updated>
+    <id>https://codeberg.org/brohrer/redsho-examples/src/branch/main</id>
+    <link href="https://codeberg.org/brohrer/redsho-examples/src/branch/main" rel="alternate"></link>
+    <summary type="html">&lt;p&gt;我最近发布了用于超参数优化的&lt;a href=&#34;https://codeberg.org/brohrer/redsho&#34;&gt;redsho&lt;/a&gt;包。最重要的是，我希望它有用。我发现从一个工作示例开始很有帮助。为此，我创建了第二个名为&lt;a href=&#34;https://codeberg.org/brohrer/redsho-examples/src/branch/main&#34;&gt;redsho-examples 的&lt;/a&gt;存储库，它演示了如何执行此操作。&lt;/p&gt;&lt;h3&gt;用法&lt;/h3&gt;&lt;p&gt;从采用一些超参数作为关键字参数的评估函数开始。&lt;/p&gt;&lt;pre&gt; &lt;code&gt;def evaluate(*, a, b, c): return a * b**3 % c&lt;/code&gt; （领先的&lt;code&gt;def evaluate(*, a, b, c): return a * b**3 % c&lt;/code&gt;&lt;/pre&gt;&lt;p&gt; &lt;code&gt;*&lt;/code&gt;告诉 Python 接下来的所有内容都是必需的关键字参数。）&lt;/p&gt;&lt;p&gt;构建一个值集合来尝试每个参数。&lt;/p&gt;&lt;pre&gt; &lt;code&gt;values = { &amp;quot;a&amp;quot;: [4, 7, 9], &amp;quot;b&amp;quot;: [2, 5, 6], &amp;quot;c&amp;quot;: [5, 8, 11], }&lt;/code&gt;调用优化器。 &lt;code&gt;values = { &amp;quot;a&amp;quot;: [4, 7, 9], &amp;quot;b&amp;quot;: [2, 5, 6], &amp;quot;c&amp;quot;: [5, 8, 11], }&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;&lt;pre&gt; &lt;code&gt;from redsho.optimizer import optimize&lt;br&gt; error, params = optimize(evaluate, values)&lt;/code&gt;在哪里&lt;code&gt;from redsho.optimizer import optimize&lt;br&gt; error, params = optimize(evaluate, values)&lt;/code&gt;&lt;/pre&gt;&lt;p&gt; &lt;code&gt;error&lt;/code&gt;是实现的最低误差， &lt;code&gt;params&lt;/code&gt;是实现该误差的参数值的集合。&lt;/p&gt;&lt;h3&gt;示例&lt;/h3&gt;&lt;p&gt;截至目前，有 4 个示例，每个示例都在自己的子目录中：&lt;ul&gt;&lt;li&gt; &lt;code&gt;sinc&lt;/code&gt; ：优化 sinc 函数的 2D 变体&lt;em&gt;sin(x)/x&lt;/em&gt;&lt;/li&gt;&lt;li&gt; &lt;code&gt;perf&lt;/code&gt; ：测试 redsho 中的执行时间瓶颈并帮助简化它&lt;/li&gt;&lt;li&gt;&lt;code&gt;xgboost_regression&lt;/code&gt; ：跨各种超参数和选项优化 XGBoost 回归模型&lt;/li&gt;&lt;li&gt;&lt;code&gt;xgboost_multiclass&lt;/code&gt; ：与前面的示例相同，但具有多类分类问题&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;p&gt;如果您自己生成了任何愿意分享的示例，我们可以将它们添加到列表中。 :)&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Python 中必需的关键字参数</title>
+    <updated>2026-09-29T04:36:00Z</updated>
+    <id>https://peps.python.org/pep-3102/</id>
+    <link href="https://peps.python.org/pep-3102/" rel="alternate"></link>
+    <summary type="html">&lt;p&gt;我学到的很酷的 Python 技巧：有时你希望函数有关键字参数，但你也希望它们是必需的。当您使用字典扩展传递必需的参数（例如&lt;code&gt;function(**arg_dict)&lt;/code&gt;时，这特别有用。&lt;/p&gt;&lt;p&gt;我总是通过将所有参数关键字默认设置为&lt;code&gt;None&lt;/code&gt;来做到这一点，然后检查函数中的任何&lt;code&gt;None&lt;/code&gt;值。但有一个更好的方法：在参数列表中使用裸&lt;code&gt;*&lt;/code&gt; 。星号后面的所有内容都是必需的关键字参数。&lt;/p&gt;&lt;p&gt;这意味着现在当我写&lt;/p&gt;&lt;pre&gt;&lt;code&gt;def sum(*, a=None, b=None): return a + b&lt;/code&gt;我不再需要检查&lt;code&gt;def sum(*, a=None, b=None): return a + b&lt;/code&gt;&lt;/pre&gt;&lt;p&gt; &lt;code&gt;a&lt;/code&gt;和&lt;code&gt;b&lt;/code&gt;在函数中不是&lt;code&gt;None&lt;/code&gt; ，我可以用&lt;/p&gt;&lt;pre&gt;&lt;code&gt;arg_dict = {&amp;#39;a&amp;#39;: 4, &amp;#39;b&amp;#39;: 9} print(sum(**arg_dict))&lt;/code&gt;您仍然可以在星号之前放置位置关键字和可选关键字。 &lt;code&gt;arg_dict = {&amp;#39;a&amp;#39;: 4, &amp;#39;b&amp;#39;: 9} print(sum(**arg_dict))&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;&lt;pre&gt; &lt;code&gt;def estimate(a, b, verbose=False, *, method=None, n_iter=None): ...&lt;/code&gt;这些所需的 kwargs 获得什么默认值并不重要，因为它总是会被覆盖。 &lt;code&gt;def estimate(a, b, verbose=False, *, method=None, n_iter=None): ...&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>redsho：强大的超参数优化器</title>
+    <updated>2026-09-28T06:36:00Z</updated>
+    <id>https://codeberg.org/brohrer/redsho</id>
+    <link href="https://codeberg.org/brohrer/redsho" rel="alternate"></link>
+    <summary type="html">&lt;p&gt;优化具有大量超参数或具有多种选项的函数的模型是一项艰巨的任务，通常需要结合社区智慧、晦涩的博客文章以及繁琐的试验和错误。自动化方法往往要么依赖于对平滑性的强烈假设，要么通过暴力来完成每个排列。所有这些选项都有点糟糕。 &lt;/p&gt;&lt;p style=&#34;text-align:center;&#34;&gt;&lt;img alt=&#34;寻找最佳进化鲍威尔方法的动画&#34;  &#xA;src=&#34;https://gitlab.com/brohrer/ponderosa/raw/master/ponderosa/landing_page_demo.gif&#34;&#xA;style=&#34;height: 350px;&#34;&gt;&lt;/p&gt;&lt;p&gt;我尝试了另一种称为&lt;code&gt;redsho&lt;/code&gt;方法。当参数和选项的影响可能非常非线性并且详尽的网格搜索将花费比我们想要花费的时间更长的时间时，它需要采取中间立场的方法。关于它如何工作的完整描述需要&lt;a href=&#34;https://brandonrohrer.at/evopowell.html&#34;&gt;单独的一篇文章&lt;/a&gt;，但它的显着特征是它本质上是进化的。它会检查已经尝试过的参数组合，并随机选择一个，严重倾向于表现最好的参数。然后，它选择其集合中的参数之一，并尝试一些之前未尝试过的随机值。这个过程体现在全称：鲁棒进化方向集超参数优化器。&lt;/p&gt;&lt;p&gt;查看&lt;a href=&#34;https://codeberg.org/brohrer/redsho&#34;&gt;存储库&lt;/a&gt;）。&lt;/p&gt;</summary>
+  </entry>
+</feed>
